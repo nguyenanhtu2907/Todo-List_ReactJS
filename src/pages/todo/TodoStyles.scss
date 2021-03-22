@@ -1,0 +1,46 @@
+.todo-list {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100vh;
+    font-size: 18px;
+    &__paper {
+        max-width: 900px;
+        margin: auto;
+        color: #6e6e6e;
+        &__sticky {
+            background-color: #ffffff;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            width: 100%;
+            padding: 20px 0 30px 0;
+            z-index: 1;
+            &__title {
+                margin-bottom: 20px;
+            }
+        }
+        &__list {
+            &--null {
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+.pd-3 {
+    padding: 3%;
+}
+.pdl-3 {
+    padding-left: 3%;
+}
+.pdr-3 {
+    padding-right: 3%;
+}
+.dp-none {
+    display: none;
+}
+.shadow {
+    -moz-box-shadow: 2px 2px 3px 3px #ccc;
+    -webkit-box-shadow: 2px 2px 3px 3px #ccc;
+    box-shadow: 2px 2px 3px 3px #ccc;
+}
